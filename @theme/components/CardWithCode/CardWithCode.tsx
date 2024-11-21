@@ -55,7 +55,6 @@ const Column = styled.div<{ isLeftColumn?: boolean }>`
   border-right: ${({ isLeftColumn }) => isLeftColumn && '1px solid var(--border-color-secondary)'};
   h4 {
     color: var(--color-magenta-7);
-    font-family: SF Pro Text;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -64,7 +63,6 @@ const Column = styled.div<{ isLeftColumn?: boolean }>`
 
   p {
     color: var(--color-persian-green-8);
-    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -77,7 +75,6 @@ const Column = styled.div<{ isLeftColumn?: boolean }>`
     display: flex;
     justify-content: space-between;
     width: inherit;
-    font-family: SF Pro Text;
     margin: 5px 10px 5px 16px;
 
     select {
